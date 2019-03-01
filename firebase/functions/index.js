@@ -37,8 +37,8 @@ app.intent('lanca horas', (conv, {horas, datetime1,projeto}) => {
 
             sheets.spreadsheets.values.append({
               auth: client,
-              spreadsheetId: '1pxC0HgLuYy3A0RVF_0VpdNHqrIuKcewXXRlSpgOROyk',
-              range: 'Sheet1!A1:C1',
+              spreadsheetId: '1ORcCUhWCn2SNy5JQtOWAdEZJ2ruQQJoTsF6G6W_n3uY',
+              range: 'Horas!A1:C1',
               valueInputOption: 'USER_ENTERED',
               resource: {
                 values: [
